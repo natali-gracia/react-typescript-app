@@ -8,10 +8,11 @@ export const AboutPage: React.FC = () => {
             <h1>About Page</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt et architecto molestiae eveniet ipsa omnis, tenetur quas optio totam at amet vitae nostrum consequatur eaque recusandae, praesentium ea, quibusdam quaerat?</p>
             <button 
-                className='btn'
+                className='btn-large teal lighten-1'
                 onClick={() => history.push('/')}
             >
                 Back to tasks page
+                <i className="material-icons right">send</i>
             </button>
         </>
     )

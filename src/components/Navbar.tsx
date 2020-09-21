@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 export const Navbar: React.FC = () => {
     return (
     <nav>
-        <div className="nav-wrapper deep-purple darken-2 px1">
+        <div className="nav-wrapper teal darken-1 px1">
           <NavLink to="/" className="brand-logo">React + Typescript</NavLink>
           <ul className="right hide-on-med-and-down">
             <li><NavLink to="/">ToDo List</NavLink></li>
