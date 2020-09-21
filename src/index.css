@@ -8,7 +8,7 @@
 .todo {
     margin-bottom: 1rem;
 }
-.todo.complited span {
+.todo.completed span {
     text-decoration: line-through;
 }
 .todo label {
