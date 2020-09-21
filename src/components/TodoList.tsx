@@ -12,6 +12,9 @@ export const TodoList: React.FC<TodoListProps> = ({
     onToggle,
     onRemove
 }) => {
+    if(todos.length === 0) {
+        return <p className='center'>No tasks yet</p>
+    }
     return (
         <ul>
             {todos.map(todo => {
